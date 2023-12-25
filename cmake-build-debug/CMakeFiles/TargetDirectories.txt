@@ -1,0 +1,3 @@
+/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug/CMakeFiles/hamsterEngine.dir
+/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
