@@ -145,8 +145,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug",
-		"source" : "/home/weirdcat/CLionProjects/hamsterEngine"
+		"build" : "/home/weirdcat/CLionProjects/hengine/cmake-build-debug",
+		"source" : "/home/weirdcat/CLionProjects/hengine"
 	},
 	"version" : 
 	{

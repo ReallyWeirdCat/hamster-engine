@@ -1,4 +1,4 @@
-# Install script for directory: /home/weirdcat/CLionProjects/hamsterEngine
+# Install script for directory: /home/weirdcat/CLionProjects/hengine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/weirdcat/CLionProjects/hengine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

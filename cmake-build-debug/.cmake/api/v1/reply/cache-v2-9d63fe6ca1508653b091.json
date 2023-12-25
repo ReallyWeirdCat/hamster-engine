@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug"
+			"value" : "/home/weirdcat/CLionProjects/hengine/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/weirdcat/CLionProjects/hengine/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -594,18 +594,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -615,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/weirdcat/CLionProjects/hamsterEngine"
+			"value" : "/home/weirdcat/CLionProjects/hengine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -855,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "hamsterEngine"
+			"value" : "hengine"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1164,30 +1152,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/bin/pkg-config][v2.1.0()]"
-		},
-		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding SDL"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libSDLmain.a;/usr/lib/libSDL.so][/usr/include/SDL][v1.2.68()]"
-		},
-		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding Threads"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[TRUE][v()]"
 		},
 		{
 			"name" : "PKG_CONFIG_ARGN",
@@ -3358,18 +3322,6 @@
 			"value" : "-D_REENTRANT"
 		},
 		{
-			"name" : "SDL2_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/cmake/SDL2"
-		},
-		{
 			"name" : "SDL2_FOUND",
 			"properties" : 
 			[
@@ -3404,18 +3356,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/usr/include/SDL2"
-		},
-		{
-			"name" : "SDL2_Image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2_Image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/cmake/SDL2_image"
 		},
 		{
 			"name" : "SDL2_LDFLAGS",
@@ -3718,18 +3658,6 @@
 			"value" : "2.28.5"
 		},
 		{
-			"name" : "SDL2_image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2_image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/cmake/SDL2_image"
-		},
-		{
 			"name" : "SDL2_sdl2_INCLUDEDIR",
 			"properties" : 
 			[
@@ -3776,66 +3704,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
-		},
-		{
-			"name" : "SDL2_ttf_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2_ttf."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/cmake/SDL2_ttf"
-		},
-		{
-			"name" : "SDLMAIN_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/lib/libSDLmain.a"
-		},
-		{
-			"name" : "SDL_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/include/SDL"
-		},
-		{
-			"name" : "SDL_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Where the SDL Library can be found"
-				}
-			],
-			"type" : "STRING",
-			"value" : "/usr/lib/libSDLmain.a;/usr/lib/libSDL.so"
-		},
-		{
-			"name" : "SDL_LIBRARY_TEMP",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/usr/lib/libSDL.so"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -3922,7 +3790,7 @@
 			"value" : "1"
 		},
 		{
-			"name" : "hamsterEngine_BINARY_DIR",
+			"name" : "hengine_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -3931,10 +3799,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/weirdcat/CLionProjects/hamsterEngine/cmake-build-debug"
+			"value" : "/home/weirdcat/CLionProjects/hengine/cmake-build-debug"
 		},
 		{
-			"name" : "hamsterEngine_IS_TOP_LEVEL",
+			"name" : "hengine_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -3946,7 +3814,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "hamsterEngine_SOURCE_DIR",
+			"name" : "hengine_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -3955,7 +3823,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/weirdcat/CLionProjects/hamsterEngine"
+			"value" : "/home/weirdcat/CLionProjects/hengine"
 		},
 		{
 			"name" : "pkgcfg_lib_SDL2GFX_SDL2",

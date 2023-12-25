@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.27)
-project(hamsterEngine)
+project(hengine)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(hamsterEngine main.cpp)
+add_executable(
+        hengine
+        main.cpp
+        source/Game.cpp)
 
 INCLUDE(FindPkgConfig)
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
@@ -22,7 +25,7 @@ INCLUDE_DIRECTORIES(
         ${SDL2GFX_INCLUDE_DIRS}
 )
 TARGET_LINK_LIBRARIES(
-        ${PROJECT_NAME}
+        hengine
         ${SDL2_LIBRARIES}
         ${SDL2IMAGE_LIBRARIES}
         ${SDL2MIXER_LIBRARIES}
